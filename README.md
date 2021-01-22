@@ -1,11 +1,8 @@
-# BWAStore HTML Starter Template
-Starter Template ini dapat anda gunakan untuk memulai project pada video tutorial [BWASTORE](https://bit.ly/BWASTORE)
-
-## Lisensi
+Hasil slicingan dari pixcel.bwa
 
 MIT License
 
-Copyright (c) 2020 Galih Pratama
+Copyright (c) 2021 Wawan Setiawan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

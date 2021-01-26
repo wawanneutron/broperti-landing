@@ -1,4 +1,7 @@
 nav {
+  .con-nav {
+    padding: 0 0;
+  }
   padding: 40px 80px !important;
   background: transparent;
   font-weight: 500;
@@ -15,7 +18,7 @@ nav {
   }
 }
 .sticky {
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     background: #0f1837;
     padding: 10px 80px !important;
   }
@@ -23,6 +26,7 @@ nav {
 @include media-breakpoint-down(md) {
   nav {
     // background: #0f1837 !important;
+    background: #0f1837 !important;
     padding: 20px 20px !important;
   }
 }
@@ -31,9 +35,10 @@ nav {
     background: #0f1837 !important;
     padding: 10px 30px !important;
     .navbar-nav {
-      margin-top: 20px;
-      a .nav-link {
-        line-height: 30px;
+      align-items: center;
+      margin: 30px 0;
+      a.nav-link {
+        padding: 20px 0;
       }
     }
     .btn-success {

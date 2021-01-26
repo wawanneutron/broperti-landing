@@ -1,0 +1,16 @@
+.scroll-up {
+  z-index: 1;
+  width: 45px;
+  height: 45px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  background-color: #0f1837;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border-radius: 20%;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.5);
+}

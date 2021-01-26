@@ -1,0 +1,42 @@
+footer {
+  .bg-footer {
+    background: #0f1837;
+    border-radius: 6px;
+    margin-bottom: 50px;
+
+    .form-group {
+      padding: 21px;
+    }
+    label {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      color: #ffffff;
+    }
+    input {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #020b2a;
+    }
+    button.btn-success {
+      //   width: 170px;
+      //   height: 70px;
+
+      background: #83d987;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 18px;
+      text-align: center;
+      color: #132039;
+    }
+  }
+
+  /* footer */
+  .text-footer {
+    font-weight: 300;
+    font-size: 18px;
+    color: #8a8c97;
+    margin-bottom: 50px;
+  }
+}

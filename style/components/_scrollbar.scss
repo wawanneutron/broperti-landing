@@ -1,0 +1,23 @@
+/* scrollbar schrom */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1d191f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f1837;
+  border-radius: 15px;
+  &:hover {
+    background: #1c2958;
+  }
+}
+
+/* firefox */
+
+:root {
+  scrollbar-color: #a45aee #1d191f !important;
+  scrollbar-width: thin !important;
+}

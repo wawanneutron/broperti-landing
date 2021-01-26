@@ -1,3 +1,233 @@
 .section-features {
-  height: 100vh;
+  margin-top: 85px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  .col-img {
+    img {
+      width: 420px;
+      border-radius: 25px;
+      object-fit: cover;
+    }
+    .card {
+      border: none;
+      border-radius: 10px;
+      background: #fff;
+      position: absolute;
+      top: 50px;
+      left: 175px;
+      width: 316px;
+      height: 100px;
+      .card-body {
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          color: #132039;
+          margin: 8px 0 8px 0;
+          span {
+            font-weight: 300;
+            font-size: 16px;
+            color: #898889;
+          }
+        }
+        align-items: center;
+        display: flex;
+        .price {
+          display: flex;
+          color: #0a9f82;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+        }
+      }
+    }
+    /* card yellow discount */
+    .card-badge {
+      position: absolute;
+      left: -20px;
+      top: 450px;
+      width: 137px;
+      height: 70px;
+      background: #f5d35c;
+      border-radius: 6px;
+      .card-body {
+        padding: 10px;
+        .discount {
+          text-align: left !important;
+          font-weight: 500;
+          font-size: 18px;
+          text-align: center;
+          color: #132039;
+        }
+      }
+    }
+  }
+
+  .col-list {
+    margin-top: 50px;
+    ul {
+      li {
+        position: relative;
+        list-style: none;
+        z-index: 1;
+        margin: 30px 20px;
+        span {
+          position: absolute;
+          align-items: center;
+          color: #0f1837;
+          font-size: 20px;
+          font-weight: 500;
+          top: 13px;
+          left: -25px;
+        }
+        h3 {
+          font-weight: 500;
+          font-size: 32px;
+          color: #0f1837;
+        }
+        p {
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 26px;
+          color: #0f1837;
+          margin-left: 25px;
+        }
+      }
+
+      li::before {
+        content: "";
+        position: absolute;
+        left: -44px;
+        top: 4px;
+
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        background: rgb(219, 181, 219);
+        z-index: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .section-features {
+    margin-top: 185px;
+    margin-bottom: 30px;
+
+    .col-list {
+      margin-top: -30px;
+      ul {
+        li {
+          position: relative;
+          list-style: none;
+          z-index: 1;
+          margin: 30px 20px;
+          span {
+            position: absolute;
+            align-items: center;
+            color: #0f1837;
+            font-size: 20px;
+            font-weight: 500;
+            top: 13px;
+            left: -25px;
+          }
+          h3 {
+            font-weight: 500;
+            font-size: 32px;
+            color: #0f1837;
+          }
+          p {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #0f1837;
+            margin-left: 25px;
+          }
+        }
+
+        li::before {
+          content: "";
+          position: absolute;
+          left: -40px;
+          top: 7px;
+
+          width: 40px;
+          height: 40px;
+          border-radius: 5px;
+          background: rgb(219, 181, 219);
+          z-index: 0;
+        }
+      }
+    }
+  }
+}
+
+/* responsive card */
+@media (max-width: 1174px) {
+  .section-features {
+    .col-img {
+      text-align: center !important;
+      img {
+        position: relative !important;
+        text-align: center !important;
+      }
+      .card {
+        border: none;
+        border-radius: 0 0 20px 0;
+        background: #fff;
+        position: absolute;
+        left: 15px;
+        top: 40px;
+        width: 300px;
+        height: 90px;
+        .card-body {
+          p {
+            text-align: left;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #132039;
+            margin: 8px 0 8px 0;
+            span {
+              font-weight: 300;
+              font-size: 16px;
+              color: #898889;
+            }
+          }
+          align-items: center;
+          display: flex;
+          .price {
+            display: flex;
+            color: #0a9f82;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+          }
+        }
+      }
+      /* card yellow discount */
+      .card-badge {
+        position: relative;
+        top: -70px;
+        left: 0;
+        width: 137px;
+        height: 70px;
+        background: #f5d35c !important;
+        border-radius: 0 6px 0 20px;
+        .card-body {
+          padding: 10px;
+          .discount {
+            text-align: left !important;
+            font-weight: 500;
+            font-size: 18px;
+            text-align: center;
+            color: #132039;
+          }
+        }
+      }
+    }
+  }
 }

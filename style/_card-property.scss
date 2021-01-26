@@ -1,0 +1,91 @@
+.best-property {
+  .header-title {
+    margin-bottom: 50px;
+
+    h2 {
+      margin-left: 80px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 48px;
+      color: #0f1837;
+    }
+    a {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: right;
+      text-decoration-line: underline;
+      color: #9094a2;
+    }
+    .text-left {
+      padding: 0;
+    }
+    .text-right {
+      padding: 0;
+      margin-right: 80px;
+    }
+  }
+
+  /* card property */
+  .card-property {
+    margin-left: 65px;
+
+    a.componet-property {
+      text-decoration: none;
+
+      .property-thumbnail {
+        &:hover {
+          transform: scale(1.05);
+          transition: all 0.3s ease;
+        }
+        .property-image {
+          margin-bottom: 10px;
+          img {
+            width: 293px;
+            height: 380px;
+            border-radius: 12px;
+            object-fit: cover;
+          }
+          .text-badge {
+            position: absolute;
+            top: 0;
+            width: 133px;
+            height: 50px;
+            border-radius: 12px 0 20px 0;
+            background: #fff;
+            font-size: 18px;
+            line-height: 27px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            color: #5943a6;
+          }
+        }
+      }
+      /* text card */
+      .property-text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #132039;
+      }
+      .property-subtext {
+        font-weight: 300;
+        font-size: 16px;
+        color: #898889;
+      }
+      .property-price {
+        font-weight: 500;
+        font-size: 20px;
+        color: #0a9f82;
+      }
+    }
+  }
+}
+
+/* width: 293px;
+height: 456px; 
+
+
+*/

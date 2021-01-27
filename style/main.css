@@ -10825,7 +10825,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  background: #f5f6f8 !important;
+  background: #fff !important;
 }
 
 nav {
@@ -11393,6 +11393,7 @@ nav .btn-success {
 }
 
 footer {
+  background: #fff !important;
   /* footer */
 }
 

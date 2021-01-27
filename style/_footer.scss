@@ -34,12 +34,16 @@ footer {
     }
   }
 
-  /* footer */
-  .text-footer {
-    font-weight: 300;
-    font-size: 18px;
-    color: #8a8c97;
-    margin-bottom: 50px;
+  .card-footer {
+    padding: 0;
+    margin-top: 20px;
+    background: #fff !important;
+    /* footer */
+    .text-footer {
+      font-weight: 300;
+      font-size: 18px;
+      color: #8a8c97;
+    }
   }
 }
 

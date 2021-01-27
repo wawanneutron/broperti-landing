@@ -11394,7 +11394,6 @@ nav .btn-success {
 
 footer {
   background: #fff !important;
-  /* footer */
 }
 
 footer .bg-footer {
@@ -11430,11 +11429,17 @@ footer .bg-footer button.btn-success {
   color: #132039;
 }
 
-footer .text-footer {
+footer .card-footer {
+  padding: 0;
+  margin-top: 20px;
+  background: #fff !important;
+  /* footer */
+}
+
+footer .card-footer .text-footer {
   font-weight: 300;
   font-size: 18px;
   color: #8a8c97;
-  margin-bottom: 50px;
 }
 
 @media (max-width: 767px) {

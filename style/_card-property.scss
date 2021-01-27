@@ -62,7 +62,8 @@
         }
         /* text card */
         .card-body {
-          padding: 20px 0;
+          padding: 20px 10px !important;
+
           .property-text {
             font-weight: 500;
             font-size: 20px;
@@ -98,19 +99,6 @@
 
     .row-property {
       margin-left: -65px !important;
-    }
-  }
-
-  /* card property */
-
-  .row-property {
-    .card {
-      .componet-property {
-        /* text card */
-        .card-body {
-          padding: 20px 10px !important;
-        }
-      }
     }
   }
 }

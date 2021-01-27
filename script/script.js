@@ -40,22 +40,34 @@ $('.owl-carousel').owlCarousel({
             
         },
         600: {
-            items: 2,
-            
+             items: 2,
+            stagePadding: 100,
+             margin: 10,
         },
         824: {
-            items: 2,
-            stagePadding: 60,
+             items: 2,
+            stagePadding: 100,
+             margin: 10,
+            
 
         },
         1000: {
-            items: 3,
-            
+            items: 2,
+            stagePadding: 200,
+             margin: 10,
         },
-        1292: {
+      
+        1300: {
+            items: 3,
+            stagePadding: 90,
+            margin: 20,
+
+        },
+        1400: {
             items: 4,
             stagePadding: 90,
-            
+            margin: 20,
+
         }
     }
 });

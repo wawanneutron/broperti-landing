@@ -11358,7 +11358,7 @@ nav .btn-success {
 }
 
 .best-property .row-property .card .componet-property .card-body {
-  padding: 20px 0;
+  padding: 20px 10px !important;
 }
 
 .best-property .row-property .card .componet-property .card-body .property-text {
@@ -11389,13 +11389,6 @@ nav .btn-success {
   }
   .best-property .row-property {
     margin-left: -65px !important;
-  }
-  /* card property */
-  .row-property .card .componet-property {
-    /* text card */
-  }
-  .row-property .card .componet-property .card-body {
-    padding: 20px 10px !important;
   }
 }
 

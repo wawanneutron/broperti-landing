@@ -1,4 +1,5 @@
 .best-property {
+  margin-bottom: 50px;
   .header-title {
     margin-bottom: 50px;
 
@@ -28,64 +29,88 @@
   }
 
   /* card property */
-  .card-property {
+
+  .row-property {
     margin-left: 65px;
 
-    a.componet-property {
-      text-decoration: none;
+    .card {
+      width: 293px;
+      border: none;
 
-      .property-thumbnail {
-        &:hover {
-          transform: scale(1.05);
-          transition: all 0.3s ease;
+      .componet-property {
+        text-decoration: none;
+
+        img {
+          width: 293px;
+          height: 380px;
+          border-radius: 12px;
+          object-fit: cover;
         }
-        .property-image {
-          margin-bottom: 10px;
-          img {
-            width: 293px;
-            height: 380px;
-            border-radius: 12px;
-            object-fit: cover;
+        .text-badge {
+          position: absolute;
+          top: 0;
+          width: 133px;
+          height: 50px;
+          border-radius: 12px 0 20px 0;
+          background: #fff;
+          font-size: 18px;
+          line-height: 27px;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          color: #5943a6;
+        }
+        /* text card */
+        .card-body {
+          padding: 20px 0;
+          .property-text {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #132039;
           }
-          .text-badge {
-            position: absolute;
-            top: 0;
-            width: 133px;
-            height: 50px;
-            border-radius: 12px 0 20px 0;
-            background: #fff;
-            font-size: 18px;
-            line-height: 27px;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            color: #5943a6;
+          .property-subtext {
+            font-weight: 300;
+            font-size: 16px;
+            color: #898889;
+          }
+          .property-price {
+            float: right;
+            margin-top: -50px;
+            font-weight: 500;
+            font-size: 20px;
+            color: #0a9f82;
           }
         }
-      }
-      /* text card */
-      .property-text {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
-        color: #132039;
-      }
-      .property-subtext {
-        font-weight: 300;
-        font-size: 16px;
-        color: #898889;
-      }
-      .property-price {
-        font-weight: 500;
-        font-size: 20px;
-        color: #0a9f82;
       }
     }
   }
 }
 
-/* width: 293px;
-height: 456px; 
+@media (max-width: 767px) {
+  .best-property {
+    .header-title {
+      .text-left {
+        margin-left: -65px !important;
+        margin-bottom: 10px;
+      }
+    }
 
+    .row-property {
+      margin-left: -65px !important;
+    }
+  }
 
-*/
+  /* card property */
+
+  .row-property {
+    .card {
+      .componet-property {
+        /* text card */
+        .card-body {
+          padding: 20px 10px !important;
+        }
+      }
+    }
+  }
+}

@@ -24,3 +24,38 @@ $('.scroll-up').on('click', function (event) {
         scrollTop: $("#home").offset().top
     }, 1200, 'easeInOutExpo');
 });
+
+/* owl carousel - image slider */
+$('.owl-carousel').owlCarousel({
+    stagePadding: 80,
+    margin: 55,
+    loop: true,
+    autoplayTimeOut: 1000,
+    autoplayHoverPause: true,
+    nav: false,
+    responsive: {
+        0: {
+            items: 1,
+            stagePadding: 90,
+            
+        },
+        600: {
+            items: 2,
+            
+        },
+        824: {
+            items: 2,
+            stagePadding: 60,
+
+        },
+        1000: {
+            items: 3,
+            
+        },
+        1292: {
+            items: 4,
+            stagePadding: 90,
+            
+        }
+    }
+});

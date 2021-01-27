@@ -40,3 +40,15 @@ footer {
     margin-bottom: 50px;
   }
 }
+
+@media (max-width: 767px) {
+  .bg-footer {
+    background: #0f1837;
+    border-radius: unset !important;
+    margin-bottom: 50px;
+
+    button.btn-success {
+      margin-bottom: 10px;
+    }
+  }
+}

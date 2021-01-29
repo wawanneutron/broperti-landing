@@ -7,7 +7,7 @@ footer {
     margin-bottom: 50px;
 
     .form-group {
-      padding: 21px;
+      padding: 10px 21px;
     }
     label {
       font-weight: normal;
@@ -21,10 +21,14 @@ footer {
       line-height: 24px;
       color: #020b2a;
     }
+
+    .btn-footer {
+      padding: 0 36px;
+    }
+
     button.btn-success {
       //   width: 170px;
       //   height: 70px;
-
       background: #83d987;
       border-radius: 4px;
       font-weight: 500;
@@ -43,6 +47,19 @@ footer {
       font-weight: 300;
       font-size: 18px;
       color: #8a8c97;
+
+      .fa-heart {
+        color: crimson;
+      }
+    }
+
+    a {
+      color: #8a8c97;
+      text-decoration: none !important;
+      &:hover {
+        text-decoration: underline;
+        color: #020b2a;
+      }
     }
   }
 }
@@ -50,11 +67,18 @@ footer {
 @media (max-width: 767px) {
   .bg-footer {
     background: #0f1837;
-    border-radius: unset !important;
     margin-bottom: 50px;
 
     button.btn-success {
       margin-bottom: 10px;
     }
+  }
+}
+
+@media (max-width: 575px) {
+  .bg-footer {
+    background: #0f1837;
+    margin-bottom: 50px;
+    border-radius: unset !important;
   }
 }

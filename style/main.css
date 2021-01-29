@@ -11403,7 +11403,7 @@ footer .bg-footer {
 }
 
 footer .bg-footer .form-group {
-  padding: 21px;
+  padding: 10px 21px;
 }
 
 footer .bg-footer label {
@@ -11418,6 +11418,10 @@ footer .bg-footer input {
   font-size: 16px;
   line-height: 24px;
   color: #020b2a;
+}
+
+footer .bg-footer .btn-footer {
+  padding: 0 36px;
 }
 
 footer .bg-footer button.btn-success {
@@ -11442,14 +11446,35 @@ footer .card-footer .text-footer {
   color: #8a8c97;
 }
 
+footer .card-footer .text-footer .fa-heart {
+  color: crimson;
+}
+
+footer .card-footer a {
+  color: #8a8c97;
+  text-decoration: none !important;
+}
+
+footer .card-footer a:hover {
+  text-decoration: underline;
+  color: #020b2a;
+}
+
 @media (max-width: 767px) {
   .bg-footer {
     background: #0f1837;
-    border-radius: unset !important;
     margin-bottom: 50px;
   }
   .bg-footer button.btn-success {
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .bg-footer {
+    background: #0f1837;
+    margin-bottom: 50px;
+    border-radius: unset !important;
   }
 }
 
